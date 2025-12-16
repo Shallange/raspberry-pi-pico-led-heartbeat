@@ -29,9 +29,7 @@ The result is a pulsing LED heart driven by a Raspberry Pi Pico and a 2N2222A tr
 * [10.Battery Life (Approximate)](#battery-life-approximate)
 
 ---
-## 🎥 Demo
-
-![Heartbeat LED animation](video/heartled.gif)
+![Heartbeat LED animation](images/heartled.gif)
 
 ##  What It Does  
 
