@@ -33,8 +33,6 @@ The result is a pulsing LED heart driven by a Raspberry Pi Pico and a 2N2222A tr
 
 ![Heartbeat LED animation](video/heartled.gif)
 
-▶️ [Watch full demo video](video/heartled.mp4)
-
 ##  What It Does  
 
 The LEDs form a heart shape and pulse in a double heartbeat pattern with fading by using pwm
