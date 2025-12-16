@@ -1,7 +1,6 @@
 #  Raspberry Pi Pico Heartbeat Light
  ![Finished LED Heart](images/led-heart-front.jpeg)
 
-
 This project started mainly as a **hands-on soldering challenge** and as an excuse to properly try out my **TS101 soldering pen**.
 
 It ended up becoming a deep dive into:
@@ -14,21 +13,27 @@ The result is a pulsing LED heart driven by a Raspberry Pi Pico and a 2N2222A tr
 
 
 # Table of contents
-* [1.What it does](#what-it-does)
-* [2.Parts I Used](#parts-i-used)
-* [3.Why a Transistor Is Needed](#why-a-transistor-is-needed)
-* [4.Power Setup & Voltage Decisions](#power-setup--voltage-decisions)
-* [5.Software](#software)
-* [6.Layout & Routing Decisions](#layout--routing-decisions)
-* [7.Debugging & What I Learned the Hard Way](#debugging--what-i-learned-the-hard-way)
-  * [7.A - Wrong resistor assumptions ](#1-wrong-resistor-assumptions)
-  * [7.B - Base resistor mistake](#2-base-resistor-mistake)
-  * [7.C - Multimeter “opens the valve” moment ](#3-multimeter-opens-the-valve-moment)
-  * [7.D - Thought the Pico was dead ](#4-thought-the-pico-was-dead)
-* [8.What I Learned](#what-i-learned)
-* [9.Battery Life (Approximate)](#battery-life-approximate)
+* [1.Demo](#-demo)
+* [2.What it does](#what-it-does)
+* [3.Parts I Used](#parts-i-used)
+* [4.Why a Transistor Is Needed](#why-a-transistor-is-needed)
+* [5.Power Setup & Voltage Decisions](#power-setup--voltage-decisions)
+* [6.Software](#software)
+* [7.Layout & Routing Decisions](#layout--routing-decisions)
+* [8.Debugging & What I Learned the Hard Way](#debugging--what-i-learned-the-hard-way)
+  * [8.A - Wrong resistor assumptions ](#1-wrong-resistor-assumptions)
+  * [8.B - Base resistor mistake](#2-base-resistor-mistake)
+  * [8.C - Multimeter “opens the valve” moment ](#3-multimeter-opens-the-valve-moment)
+  * [8.D - Thought the Pico was dead ](#4-thought-the-pico-was-dead)
+* [9.What I Learned](#what-i-learned)
+* [10.Battery Life (Approximate)](#battery-life-approximate)
 
 ---
+## 🎥 Demo
+
+![Heartbeat LED animation](video/heartled.gif)
+
+▶️ [Watch full demo video](video/heartled.mp4)
 
 ##  What It Does  
 
